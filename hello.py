@@ -26,3 +26,9 @@ class dog(animal):
         print("can watch home")
     def call(self,voice):
         print("汪汪叫")
+
+if __name__ == '__main__':
+    maoamo = cat("tom","red",18,"male")
+    result = maoamo.catch_rat()
+    res = maoamo.run()
+    
